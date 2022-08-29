@@ -2,33 +2,150 @@
 {
 height: auto;
 width: 100%;
-/* background-color: aqua; */
+background-color: blue;
+
+}
+#topbar
+{
+    height:70px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    line-height: 40px;
+}
+#topbar_left
+{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:center ;   
+}
+#image_topbar{
+    height: 55%;
+    width: 100%;
+    margin-top: 10%;
+}
+#topbar_right
+{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    display: flex; 
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    margin: 2%;
+}
+#middle
+{
+    height: 211px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    line-height: 30px;
+}
+#button1{
+    margin: .2%;
+    height: 35px;
+    width: 143px;
+    border-radius: 100px;
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+}
+#button2
+{
+    margin: .2%;
+    height: 35px;
+    width: 143px;
+    border-radius: 100px;
+    background-color: blue;
+    border: 2px solid white;
+    color: white;
+}
+#pbottom
+{    
+    line-height: 30px;
+    font-size: 10px;
+}
+h1{
+    margin-top: 20px;
+}
+#bottom
+{
+    height: 250px;
+    width: 92%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 54px;
+    margin-top: 5%;
+}
+#btnbottom
+{
+    height: 35px;
+    width: 86px;
+    background-color: white;
+    color: black;
+    border-radius: 23px;
+}
+#outer1
+{
+height: 350px;
+width: 100%;
 }
 #top{
     height: 100px;
     width:100%;
-    /* background-color: aqua; */
     text-align: center;
 }
-#bottom
+#bottom1
 {
     height: 300px;
     width: 100%;
-    /* background-color: yellow; */
     display: flex;
     justify-content: center;
 
 }
-#bottom > div
+#bottom1 > div
 {
     height: 100%;
     width: 22%;
     text-align: center;
 }
-img{
+.img_music{
     border-radius: 50%;
 }
 p
 {
     font-size: 14px;
+}
+#top1
+{
+    height: 100px;
+    width:100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+}
+#bottom2
+{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;  
+    background-color: black;
+    color: white;
+}
+#bottom2 > div
+{
+    height: 100%;
+    width: 22%;
+    text-align: center;
 }
