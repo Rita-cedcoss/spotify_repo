@@ -5,7 +5,7 @@ class Component2 extends Component {
     return (
       <>
       <div id="outer1">
-      <div id="top"><h1>The Power of Premium</h1></div>
+      <div id="top"><h1 class="heading">The Power of Premium</h1></div>
       <div id="bottom1">
         <div id="divOne">
             <img class="img_music" style={{height:"100px",width:"100px"}} src="https://www.pngitem.com/pimgs/m/268-2686285_woman-listening-to-music-listen-to-music-clipart.png" alt=""></img>

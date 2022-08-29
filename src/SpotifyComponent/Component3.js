@@ -5,7 +5,7 @@ class Component3 extends Component {
     return (
       <>
        <div id="outer1">
-      <div id="top1"><h1>Connect With Music Culture </h1></div>
+      <div id="top1"><h1 class="heading">Connect With Music Culture </h1></div>
       <div id="bottom2">
         <div id="divOne">
             <img style={{height:"100px",width:"100px"}} src="https://i.scdn.co/image/ab67706f00000003d324d714e59faec1c968c219" alt=""></img>
