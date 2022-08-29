@@ -1,0 +1,41 @@
+#outer
+{
+height: auto;
+width: 100%;
+background-color: blue;
+
+}
+#topbar
+{
+    height:50px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+}
+#topbar_left
+{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:center ; 
+    
+}
+#image_topbar{
+    height: 55%;
+    width: 100%;
+    margin-top: 10%;
+}
+#topbar_right
+{
+    height: 100%;
+    width: 60%;
+    background-color: rgb(0, 0, 0);
+    display: flex; 
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    margin: 2%;
+}
